@@ -16,7 +16,7 @@
 
 ### Snippet
 
-#### Javascript
+#### 	Javascript
 
 ```javascript
 function arrayOfMultiples(num, length) {
@@ -42,7 +42,7 @@ console.log(arrayOfMultiples(11, 21));
 
 ```
 
-#### Python
+#### 	Python
 
 ```python
 def list_of_multiples (num, length):
