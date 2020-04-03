@@ -7,7 +7,12 @@
  */
 
 function arrayOfMultiples(num, length) {
-	// write your code here
+	let result = []
+	for(let it = 1;it<=length ;it++)
+	{
+			result.push(num*it)
+	}
+	return (result)
 }
 
 console.log(arrayOfMultiples(7, 5));
