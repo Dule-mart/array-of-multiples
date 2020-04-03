@@ -8,6 +8,11 @@
 
 function arrayOfMultiples(num, length) {
 	// write your code here
+	let res = [];
+	for (let i = 1; i <= length; i++) {
+		res.push(i*num);
+	}
+	return res;
 }
 
 console.log(arrayOfMultiples(7, 5));
