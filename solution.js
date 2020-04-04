@@ -8,6 +8,7 @@
 
 function arrayOfMultiples(num, length) {
 	// write your code here
+	return [...Array(length)].map((_, i) => num * (i + 1))
 }
 
 console.log(arrayOfMultiples(7, 5));
