@@ -8,6 +8,15 @@
 
 function arrayOfMultiples(num, length) {
 	// write your code here
+	var arr=[];
+     
+     for(var i=1;i<=length;i++){
+         // var num1=7;
+         var output =num*i
+         arr.push(output) 
+     }
+ 
+  return arr
 }
 
 console.log(arrayOfMultiples(7, 5));
