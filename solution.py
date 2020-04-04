@@ -5,8 +5,11 @@
 # - Notice that NUM is also included in the returned array.
 
 def list_of_multiples (num, length):
-    # start by overwriting line 9
-    pass
+    result=[]
+    for i in range(length+1):
+      if i>0:
+        result.append(num*i)
+    return result
 
 print(list_of_multiples(7, 5))
 # [7, 14, 21, 28, 35]
