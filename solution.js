@@ -7,7 +7,14 @@
  */
 
 function arrayOfMultiples(num, length) {
-	// write your code here
+	let newArr = [];
+	for (let index = 1; index <= length; index++) {
+		let sum = num * index;
+		newArr.push(sum)
+	}
+	
+	return newArr;
+	
 }
 
 console.log(arrayOfMultiples(7, 5));
