@@ -7,11 +7,16 @@
  */
 
 function arrayOfMultiples(num, length) {
-	// write your code here
+	var multiples = []; // set var to array(so that we can store multiple numbers)
+    for (var i = 1; i <= length; i++) {
+      multiples.push(i*num);
+    }
+
+  return multiples; // write your code here
 }
 
 console.log(arrayOfMultiples(7, 5));
-// [7, 14, 21, 28, 35]
+// // [7, 14, 21, 28, 35]
 console.log(arrayOfMultiples(12, 10));
 // [12, 24, 36, 48, 60, 72, 84, 96, 108, 120]
 console.log(arrayOfMultiples(17, 7));
@@ -24,5 +29,5 @@ console.log(arrayOfMultiples(140, 3));
 console.log(arrayOfMultiples(7, 8));
 // [7, 14, 21, 28, 35, 42, 49, 56]
 console.log(arrayOfMultiples(11, 21));
-// [11, 22, 33, 44, 55, 66, 77, 88, 99, 110,121,
-//  132, 143, 154, 165, 176, 187, 198, 209, 220, 231]
+[11, 22, 33, 44, 55, 66, 77, 88, 99, 110,121,
+ 132, 143, 154, 165, 176, 187, 198, 209, 220, 231]
